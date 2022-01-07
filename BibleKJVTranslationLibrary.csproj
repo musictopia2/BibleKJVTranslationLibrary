@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+ <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<Version>1.0.1</Version>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="CommonBasicLibraries" Version="5.0.6" />
+		<PackageReference Include="JsonSerializerContextGenerator" Version="1.0.1"  PrivateAssets="all" />
+	</ItemGroup>
+	<ItemGroup>
+		<AdditionalFiles Include="Resources\KJV 1 Chronicles.json" />
+		<AdditionalFiles Include="Resources\KJV 1 Corinthians.json" />
+		<AdditionalFiles Include="Resources\KJV 1 John.json" />
+		<AdditionalFiles Include="Resources\KJV 1 Kings.json" />
+		<AdditionalFiles Include="Resources\KJV 1 Peter.json" />
+		<AdditionalFiles Include="Resources\KJV 1 Samuel.json" />
+		<AdditionalFiles Include="Resources\KJV 1 Thessalonians.json" />
+		<AdditionalFiles Include="Resources\KJV 1 Timothy.json" />
+		<AdditionalFiles Include="Resources\KJV 2 Chronicles.json" />
+		<AdditionalFiles Include="Resources\KJV 2 Corinthians.json" />
+		<AdditionalFiles Include="Resources\KJV 2 John.json" />
+		<AdditionalFiles Include="Resources\KJV 2 Kings.json" />
+		<AdditionalFiles Include="Resources\KJV 2 Peter.json" />
+		<AdditionalFiles Include="Resources\KJV 2 Samuel.json" />
+		<AdditionalFiles Include="Resources\KJV 2 Thessalonians.json" />
+		<AdditionalFiles Include="Resources\KJV 2 Timothy.json" />
+		<AdditionalFiles Include="Resources\KJV 3 John.json" />
+		<AdditionalFiles Include="Resources\KJV Acts.json" />
+		<AdditionalFiles Include="Resources\KJV Amos.json" />
+		<AdditionalFiles Include="Resources\KJV Colossians.json" />
+		<AdditionalFiles Include="Resources\KJV Daniel.json" />
+		<AdditionalFiles Include="Resources\KJV Deuteronomy.json" />
+		<AdditionalFiles Include="Resources\KJV Ecclesiastes.json" />
+		<AdditionalFiles Include="Resources\KJV Ephesians.json" />
+		<AdditionalFiles Include="Resources\KJV Esther.json" />
+		<AdditionalFiles Include="Resources\KJV Exodus.json" />
+		<AdditionalFiles Include="Resources\KJV Ezekiel.json" />
+		<AdditionalFiles Include="Resources\KJV Ezra.json" />
+		<AdditionalFiles Include="Resources\KJV Galatians.json" />
+		<AdditionalFiles Include="Resources\KJV Genesis.json" />
+		<AdditionalFiles Include="Resources\KJV Habakkuk.json" />
+		<AdditionalFiles Include="Resources\KJV Haggai.json" />
+		<AdditionalFiles Include="Resources\KJV Hebrews.json" />
+		<AdditionalFiles Include="Resources\KJV Hosea.json" />
+		<AdditionalFiles Include="Resources\KJV Isaiah.json" />
+		<AdditionalFiles Include="Resources\KJV James.json" />
+		<AdditionalFiles Include="Resources\KJV Jeremiah.json" />
+		<AdditionalFiles Include="Resources\KJV Job.json" />
+		<AdditionalFiles Include="Resources\KJV Joel.json" />
+		<AdditionalFiles Include="Resources\KJV John.json" />
+		<AdditionalFiles Include="Resources\KJV Jonah.json" />
+		<AdditionalFiles Include="Resources\KJV Joshua.json" />
+		<AdditionalFiles Include="Resources\KJV Jude.json" />
+		<AdditionalFiles Include="Resources\KJV Judges.json" />
+		<AdditionalFiles Include="Resources\KJV Lamentations.json" />
+		<AdditionalFiles Include="Resources\KJV Leviticus.json" />
+		<AdditionalFiles Include="Resources\KJV Luke.json" />
+		<AdditionalFiles Include="Resources\KJV Malachi.json" />
+		<AdditionalFiles Include="Resources\KJV Mark.json" />
+		<AdditionalFiles Include="Resources\KJV Matthew.json" />
+		<AdditionalFiles Include="Resources\KJV Micah.json" />
+		<AdditionalFiles Include="Resources\KJV Nahum.json" />
+		<AdditionalFiles Include="Resources\KJV Nehemiah.json" />
+		<AdditionalFiles Include="Resources\KJV Numbers.json" />
+		<AdditionalFiles Include="Resources\KJV Obadiah.json" />
+		<AdditionalFiles Include="Resources\KJV Philemon.json" />
+		<AdditionalFiles Include="Resources\KJV Philippians.json" />
+		<AdditionalFiles Include="Resources\KJV Proverbs.json" />
+		<AdditionalFiles Include="Resources\KJV Psalm.json" />
+		<AdditionalFiles Include="Resources\KJV Revelation.json" />
+		<AdditionalFiles Include="Resources\KJV Romans.json" />
+		<AdditionalFiles Include="Resources\KJV Ruth.json" />
+		<AdditionalFiles Include="Resources\KJV Song of Solomon.json" />
+		<AdditionalFiles Include="Resources\KJV Titus.json" />
+		<AdditionalFiles Include="Resources\KJV Zechariah.json" />
+		<AdditionalFiles Include="Resources\KJV Zephaniah.json" />
+	</ItemGroup>
+</Project>
